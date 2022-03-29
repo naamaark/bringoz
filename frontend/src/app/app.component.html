@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div class="app-container">
+    <app-driver-list (onChangeDriver)="changeDriver($event)" class="driver-list"></app-driver-list>
+    <app-map [driver]="currDriver" class="map-container">
+    </app-map>
+</div>
+<app-footer></app-footer>

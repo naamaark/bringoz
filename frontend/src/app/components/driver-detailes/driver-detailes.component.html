@@ -1,0 +1,12 @@
+<div [ngClass]="{driver:true, selected:selected}" (click)="changeCurr(i)">
+    <fa-icon [icon]="faTimes" (click)="onDelete(driver)" class="delete"></fa-icon>
+    <img src={{driverImg}} alt="img" class="image">
+    <div class="details">
+        <h2 class="name">{{driver.name}}</h2>
+        <p class="phone">
+            <fa-icon [icon]="faPhone"></fa-icon> {{driver.phone}}
+        </p>
+        <p class="tasks-num">Tasks: {{driver.tasks.length}}</p>
+    </div>
+    <fa-icon [icon]="faPen" class="update" (click)="onEdit(driver)"></fa-icon>
+</div>

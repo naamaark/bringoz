@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+/*fonts*/
+/* @font-face {
+    font-family: inter-bold;
+    src: url("../fonts/Inter-Bold.ttf");
+}
+@font-face {
+    font-family: inter-extrabold;
+    src: url("../fonts/Inter-ExtraBold.ttf");
+}
+@font-face {
+    font-family: inter-medium;
+    src: url("../fonts/Inter-Medium.ttf");
+}
+@font-face {
+    font-family: inter-semibold;
+    src: url("../fonts/Inter-SemiBold.ttf");
+} */
+
+/* helpers */
+
+.flex {
+    display: flex;
+}
+
+.flex.col {
+    flex-direction: column;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+/* list-helpers */
+
+.clean-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* position helpers */
+
+.relative {
+    position: relative;
+}
+
+/* base */
+
+html {
+    color: #ffffff;
+    font-family: inter-bold, sans-serif;
+    line-height: 1.2;
+}
+
+body {
+    background-color: #040e2f;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+
+/* Layout */
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+/* main */
+
+.main-layout {
+    max-width: 1135px;
+    margin: 0 auto;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

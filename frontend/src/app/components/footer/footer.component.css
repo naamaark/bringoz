@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.footer.socail-nav{
+    display: flex;
+    gap: 15px;
+}

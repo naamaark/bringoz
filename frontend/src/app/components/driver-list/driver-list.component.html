@@ -1,0 +1,2 @@
+<app-driver-detailes *ngFor="let driver of drivers; index as i" [driver]="driver" [i]="i" [selected]="idx===i"
+    (onDeleteDriver)="deleteDriver(driver)" (onChangeCurr)="changeCurrDriver(i)"></app-driver-detailes>

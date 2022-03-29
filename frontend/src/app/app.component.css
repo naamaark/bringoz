@@ -1,0 +1,10 @@
+.app-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.driver-list {
+    flex-basis: 50%;
+}
